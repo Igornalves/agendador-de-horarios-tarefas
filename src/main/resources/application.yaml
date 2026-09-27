@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: agendador-de-horarios-tarefas
+spring-doc:
+  swagger-ui:
+    enabled: true
+  api-docs:
+    enabled: true
+    path: "/v1/api-docs"
