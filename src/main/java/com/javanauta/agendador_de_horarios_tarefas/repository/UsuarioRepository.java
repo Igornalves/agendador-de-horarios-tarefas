@@ -1,7 +1,10 @@
-package com.javanauta.agendador_de_horarios_tarefas.Repository;
+package com.javanauta.agendador_de_horarios_tarefas.repository;
 
 import com.javanauta.agendador_de_horarios_tarefas.models.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+    boolean existsByEmail(String email);
 }

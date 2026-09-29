@@ -1,6 +1,12 @@
 spring:
   application:
     name: agendador-de-horarios-tarefas
+
+server:
+  port: 8080
+  ssl:
+    enabled: false
+
 spring-doc:
   swagger-ui:
     enabled: true
