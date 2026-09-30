@@ -1,0 +1,6 @@
+2026-09-30 00:19:59.519703-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "SENHA CHARACTER VARYING(10)": "'Mari@2024#Segura' (16)"; SQL statement:
+insert into usuario (email,nome,senha,id) values (?,?,?,default) [22001-240]
+2026-09-30 00:21:34.122507-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "COMPLEMENTO CHARACTER VARYING(10)": "'Apto 302, Bloco B' (17)"; SQL statement:
+insert into endereco (cep,cidade,complemento,estado,numero,rua,id) values (?,?,?,?,?,?,default) [22001-240]
